@@ -7,7 +7,7 @@ function changeTxT(){
    p1.innerText += " nytt efter klick";
 }
 
-// ------- calculator/value-------
+// ------- calculator/value------- 1
 const n1 = document.getElementById('n1');
 const n2 = document.getElementById('n2');
 
@@ -24,8 +24,8 @@ function sum(){
    }
 }
 
-//------- ul/li eventobj --------
+//------- ul/li eventobjektet --------
 
 //------- target/currentTarget --------
 
-//------- hämta flera element --------
+//------- läs in flera element i en array --------
