@@ -1,0 +1,80 @@
+/* Grundläggande inställningar för sidan, AI-genererad */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    align-items: center;
+    line-height: 1.6;
+    font-size: 1.6rem;
+    margin: 3rem;
+}
+
+/* Rubrikstil */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+
+/* Paragrafstil */
+#p1 {
+    font-size: 1.9rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+/* Stil för input-fält */
+input {
+    padding: 1rem;
+    border: 2px solid #e1e4e8;
+    border-radius: 0.6rem;
+    font-size: 1.6rem;
+    width: 8rem;
+    text-align: center;
+    outline: none;
+    transition: border-color 0.3s ease;
+    display: inline-block;
+}
+
+input:focus {
+    border-color: #007bff;
+}
+
+/* Stil för output (resultatet) */
+#op1 {
+    font-weight: bold;
+    font-size: 1.9rem;
+    color: #007bff;
+    margin-left: 1rem;
+}
+
+/* Stil för listan */
+#ul1 {
+    list-style-type: none;
+    margin-top: 4rem;
+    width: 100%;
+    max-width: 30rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+
+#ul1 li {
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid #eee;
+}
+
+#ul1 li:last-child {
+    border-bottom: none;
+}
