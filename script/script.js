@@ -45,7 +45,6 @@ for(let i = 0; i < liArray.length; i++){
 
 function changeColor(e){
    e.target.style.color = "green";
-   alert(e.target.id);
 }
 
 //---------- KeyBoard ----------
@@ -59,5 +58,5 @@ for(let btn of btns){
 }
 
 function display(e){
-   document.getElementById('op2').innerText = e.target.innerText;
+   document.getElementById('op2').innerText += e.target.innerText;
 }
