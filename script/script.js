@@ -30,11 +30,13 @@ const ul = document.getElementById('ul1');
 ul.onclick = changeBg;
 
 function changeBg(event){
+   // Prova byta currentTarget mot target nedan
    event.currentTarget.style.backgroundColor = "red";
 }
 
 //------- läs in flera element i en array --------
-
+// Eftersom getElements... är i pluralis kommer metoden alltid 
+// returnera en array av element. Även om det endast finns ett element av typen.
 const liArray = document.getElementsByTagName('li');
 
 for(let i = 0; i < liArray.length; i++){
@@ -43,4 +45,19 @@ for(let i = 0; i < liArray.length; i++){
 
 function changeColor(e){
    e.target.style.color = "green";
+   alert(e.target.id);
+}
+
+//---------- KeyBoard ----------
+
+const keyBoard = document.getElementById("keyBoard");
+
+const btns = keyBoard.getElementsByTagName("button");
+
+for(let btn of btns){
+   btn.onclick = display;
+}
+
+function display(e){
+   document.getElementById('op2').innerText = e.target.innerText;
 }
